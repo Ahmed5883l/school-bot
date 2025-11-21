@@ -1,0 +1,20 @@
+{
+  "name": "school-bot",
+  "version": "1.0.0",
+  "description": "بوت Discord تعليمي متكامل مع نظام الدروس والاختبارات والذكاء الاصطناعي",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": ["discord", "bot", "education", "ai", "learning"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "node-cron": "^3.0.3",
+    "axios": "^1.6.2"
+  }
+}
